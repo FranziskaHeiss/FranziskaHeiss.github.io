@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500');
+
+
+html{
+     font-size: 1em;        
+	 font-family: 'Quicksand', sans-serif;
+	 color: #161d1d;
+	 background-color: #dadada;		
+     }
+
+
+body{
+	 margin: -1.3em 0em 0em 0em;
+     padding: 0;
+     }
+
+
+
+/*--header--*/
+header {
+        position: fixed;
+        background-color: #3b3b3b;
+        width: 100%;
+        height: 5em;
+        z-index: 50;   
+        top: 0;
+        left: 0;     
+        box-shadow: 0em 0.5em 2em 0em #000000e6;
+        opacity: 0.98;
+        }
+       
+        
+header > p {
+	        color: whitesmoke;
+	        margin-left: 4%;    
+            line-height: 1.5em;
+            font-size: 1.4em;
+            }
+           
+           
+
+                 
+/*--content--*/    
+main{
+     margin: 0em 0em 20em 0em;
+     }
+
+main > div{
+	       position: relative;
+           }
+
+#aufgaben{
+	      margin-top: 5em;
+          }
+
+h1 {
+	font-size: 1.2em;	
+    }
+                           
+main a{
+	   margin-top: 2.5em;	  
+	   text-align: center;
+	   display: block;
+	   color: #186e7d;
+       font-size: 1.2em;
+       }
+
+ 
+#textbox { 
+	      margin: 8em 2em 1em 2em;	     
+          } 
+                         
+ 
+#text {
+	   text-align: center;
+	   margin-top: 5%;
+       margin-bottom: -3%;
+       font-size: 0.9em;
+       } 
+   
+        
+
+
+#HFULogo {
+          width: 35%;
+          margin-top: 4%;
+          }
+  
+
+/*--footer--*/           
+footer{
+	   clear: both;
+	   width: 100%;
+	   margin: 0;
+	   color: whitesmoke; 	   
+       background: #3b3b3b;   
+       overflow: auto;   
+       text-align: center;                 
+       }	  
+       
+                
+footer > div{	    
+	         margin: auto;
+	         padding: 2em;
+	         max-width: 55em;	
+	         font-size: 90%;         
+             }    
+
+
+footer a {color: whitesmoke;}    
+
+         
+/*--angepasste Angaben für verschiedene Ausgaben--*/            	
+@media screen and (min-width: 36em) {
+	
+#text {font-size: 1em;}
+
+#HFULogo {width: 20%;}
+
+#textbox {margin: 8em 2.5em 1em 2.5em;}
+
+}
+ 
+
+@media screen and (min-width: 48em){
+	
+.projekte {
+	       font-size: 1em;
+           margin: 4%;
+           width: 37%;
+           }	
+          
+#textbox {margin: 8em 3em 1em 3em;}   
+}
+
+
+
+@media screen and (min-width: 64em){
+	
+#textbox {margin: 8em 4em 1em 4.5em;}	
+	
+.projekte {width: 22.9%;
+          padding: 1%;
+          }
+
+
+}
